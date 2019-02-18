@@ -70,7 +70,7 @@ class Uploader extends Component {
 
         this.setState({fileUploadList, fileURLs});
         
-        (fileURLs.length === 0 ? 
+        (fileUploadList.length === 0 ? 
             this.setState({isFilePresent: false})
             : this.setState({isFilePresent: true}))
 
