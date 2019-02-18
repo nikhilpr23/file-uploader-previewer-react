@@ -1,0 +1,19 @@
+@import url('./DropArea/DropArea.css');
+@import url('./PreviewArea/previewArea.css');
+
+.container {
+    width: 500px;
+    padding: 15px;
+    box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.11), 0 5px 15px 0 rgba(0, 0, 0, 0.08);    
+    border: 2px solid grey;
+    border-radius: 5px;
+    background: white;
+    min-height: 100px;
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 1050px) {
+    .container {
+        width: 410px;
+    }
+  }
