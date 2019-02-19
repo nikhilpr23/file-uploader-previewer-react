@@ -28,6 +28,7 @@ class DropArea extends Component {
                     style={{display : 'none'}} 
                     multiple 
                     onChange={this.props.onChange}
+                    accept={(type==="images" ? "image/*" : "*/*")}
                 />
                 <img 
                     alt="upload" 

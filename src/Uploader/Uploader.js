@@ -60,7 +60,6 @@ class Uploader extends Component {
     }
     
     onDragLeave = () => {
-        console.log();
         this.setState({isDragActive: false})
     }
 
