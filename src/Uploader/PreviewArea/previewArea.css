@@ -54,16 +54,17 @@
 .imgdiv {
     width: 120px;
     height: 120px;
+    padding: 4px;
     position: relative;
     margin: 10px;
+    border: 1px solid rgba(187, 186, 186);
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.21), 0 5px 15px 0 rgba(0, 0, 0, 0.18);
+    border-radius: 5px;
 }
 
 .img {
     width: 100%;
     height: 100%;
-    border: 1px solid rgba(187, 186, 186);
-    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.11), 0 5px 15px 0 rgba(0, 0, 0, 0.08);
-    border-radius: 5px;
 }
 
 .delete {
@@ -92,23 +93,22 @@
 }
 
 .docdiv {
-    width: 45%;
+    width: 48%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     text-align: left;
     margin-bottom: 10px;
-    padding: 10px;
+    padding: 4px 8px;
     border: 1px solid rgba(187, 186, 186);
-    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.11), 0 5px 15px 0 rgba(0, 0, 0, 0.08);
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.21), 0 5px 15px 0 rgba(0, 0, 0, 0.18);
     background: white;
-    border-radius: 3px;
+    border-radius: 5px;
 }
 
 .docdiv p {
     width: 90%;
-    font-size: 16px;
-    font-weight: bold;
+    font-size: 15px;
     padding: 0%;
     margin: 0%; 
     white-space: nowrap;    
